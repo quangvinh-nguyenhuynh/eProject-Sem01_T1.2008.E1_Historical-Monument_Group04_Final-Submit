@@ -1,0 +1,130 @@
+#bgNavbar {
+    background: url("../img/navbar.jpg");
+    background-size: auto;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    /* opacity: 0.85; */
+    min-height: 90px;
+}
+
+#bgNavbar .primary-overlay {
+    background: rgba(37, 37, 37, 0.6);
+    width: 100%;
+    min-height: 90px;
+}
+
+.navbar-nav li a, .navbar-brand {
+    color: whitesmoke;
+}
+
+.navbar-nav li a:hover {
+    color: wheat;
+    transform: scale(1.05);
+    background-color: rgb(67, 122, 124);
+}
+
+a.navbar-brand:hover {
+    color: brown;
+    transform: scale(1.1);
+}
+
+
+.nav-item.active a{
+    color: rgb(127, 209, 191);
+}
+
+#tailorYourtrip {
+    background-image: url("../img/tailoryourtrip.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+   
+}
+
+div .cover-section {
+   background-color:rgba(244,246,247,0.8);
+    height: 100%;
+}
+
+.border-3 {
+    border-width:3px !important;
+}
+
+
+#donateUs {
+    background-image: url("../img/donate.jpg");
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+#contact {
+    background-image: url("../img/supportus.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact .dark-overlay {
+    background-color: rgba(37, 37, 37, 0.6);
+}
+
+
+.carousel .carousel-item {
+    height: auto;
+    max-height: 400px;
+  }
+
+
+video {
+    /* override other styles to make responsive */
+    width: 100%    !important;
+    height: auto   !important;
+  }
+
+.text-superdark {
+    color:  rgb(0, 0, 0);
+}
+
+input[type=radio]#big-radio {
+    width: 15px;
+    height: 15px;
+}
+
+.bg-violet {
+    background-color: rgb(19, 17, 27);
+}
+
+#cover-nepal {
+    background-image: url("../img/nepal.jpg");
+    background-size: cover;
+    background-position: top left ;
+    background-repeat: no-repeat;
+}
+
+#cover-nepal .bg-bricks {
+    background-color: rgba(19, 17, 27, 0.87);
+}
+
+#cover-nepal .form-control {
+    color: wheat;
+}
+
+#cover-nepal .form-control::placeholder{
+    color: gray;
+    font-style: oblique;
+}
+.text-wheat {
+    color: wheat;
+}
+.text-salmon {
+    color: salmon;
+}
+
+#videotitle a:hover {
+    color: brown;
+}
+#videotitle a {
+    color: whitesmoke;
+}
