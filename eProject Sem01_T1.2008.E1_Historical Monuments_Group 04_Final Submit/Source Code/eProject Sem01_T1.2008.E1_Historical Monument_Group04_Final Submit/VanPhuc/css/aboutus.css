@@ -1,0 +1,37 @@
+/*------------bannner-----------------*/
+
+#site-title {
+    background: url('../images/a1.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+#site-title .site-background {
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+
+#site-title h1 {
+    margin-bottom: 3rem;
+
+}
+
+#site-title .btn {
+    margin: 1.8rem;
+    background: aquamarine;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+
+}
+
+#site-title .btn:hover {
+    background: transparent;
+    border: 1px solid white;
+    color: white
+}

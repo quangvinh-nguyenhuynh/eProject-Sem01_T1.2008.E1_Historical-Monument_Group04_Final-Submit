@@ -1,0 +1,31 @@
+#bgNavbar {
+    background: url("../../QuangVinh/img/navbar.jpg");
+    background-size: auto;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    /* opacity: 0.85; */
+    min-height: 90px;
+}
+
+#bgNavbar .primary-overlay {
+    background: rgba(37, 37, 37, 0.6);
+    width: 100%;
+    min-height: 90px;
+}
+
+.navbar-nav li a, .navbar-brand {
+    color: whitesmoke;
+}
+
+.navbar-nav li a:hover {
+    color: wheat;
+    transform: scale(1.05);
+    background-color: rgb(67, 122, 124);
+}
+
+
+.nav-item.active a{
+    color: rgb(127, 209, 191);
+}
+

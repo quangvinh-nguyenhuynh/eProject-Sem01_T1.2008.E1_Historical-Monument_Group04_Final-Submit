@@ -1,0 +1,369 @@
+/*-----------Google fonts ------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#banner .content {
+    position: relative;
+    max-width: 900px;
+    text-align: center;
+    z-index: 1;
+}
+
+.but  {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+#banner .content h2 {
+    color: #fff;
+    font-size: 4em;
+}
+
+#banner .content p {
+    color: #fff;
+    font-size: 1.2em;
+}
+.fitBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+    #banner .content h2 {
+        font-size: 2.5em;
+    }
+
+    #banner .content p {
+        font-size: 1em;
+    } 
+}
+
+/*----------------------WHAT MAKE US DIFERNT--------------------------------*/
+#differ {
+    padding: 80px 0;
+    margin-top: 0;
+}
+
+#differ .differ-img {
+    width: 100px;
+    margin-top: 20px;
+    height: 120px;
+}
+
+#differ .differ {
+    padding: 20px;
+}
+
+#differ .differ h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+#differ .title::before {
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+#differ .title::after {
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#differ .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782) ;
+}
+
+
+/*----------------------------PIC-------------------------------*/
+.dg-container{
+	width: 100%;
+	height: 600px;
+	position: relative;
+    background-image: url(../images/he.jpg);
+    background-size: cover;
+    padding-top: 60px;
+}
+
+.dg-container h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 600;
+}
+.dg-wrapper{
+	width: 481px;
+	height: 316px;
+	margin: 0 auto;
+	position: relative; 
+	transform-style: preserve-3d;
+	 perspective: 1000px;
+}
+.dg-wrapper a{
+	width: 482px;
+	height: 316px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	 
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.dg-wrapper a.dg-transition{
+ 	transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+	display: block;
+	 border: 8px solid white;
+}
+.dg-wrapper a div{
+	font-style: italic;
+	text-align: center;
+	line-height: 50px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+	color: #333;
+	font-size: 16px;
+	width: 100%;
+	bottom: -55px;
+	display: none;
+	position: absolute;
+}
+.dg-wrapper a.dg-center div{
+	display: block;
+}
+.dg-container nav{
+	width: 58px;
+	position: absolute;
+	z-index: 1000;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -29px;
+}
+.dg-container nav span{
+	text-indent: -9000px;
+	float: left;
+	cursor:pointer;
+	width: 24px;
+	height: 25px;
+	opacity: 0.8;
+	background: transparent url(../images/arrows.png) no-repeat top left;
+}
+.dg-container nav span:hover{
+	opacity: 1;
+}
+.dg-container nav span.dg-next{
+	background-position: top right;
+	margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+    .dg-container h2 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .dg-container nav {
+        bottom: 100px;
+    }
+}
+
+/*----------------Team-------------------*/
+#our-team {
+    padding-top: 30px;
+}
+
+#our-team h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+#our-team .tit:before {
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+#our-team .tit:after {
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+.our-team {
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+
+.our-team:hover {
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+}
+
+.our-team .pic {
+    overflow: hidden;
+    position: relative;
+}
+
+.our-team .pic:before,
+.our-team .pic:after {
+    content: "";
+    width: 200%;
+    height: 80%;
+    background: rgba(38, 37, 37, 0.8);
+    position: absolute;
+    top: -100%;
+    left: -4%;
+    transform: rotate(45deg);
+    transition: all 0.5s ease 0s;
+}
+
+.our-team .pic:after {
+    background: rgba(8, 75, 77, 0.8);
+    top: auto;
+    left: auto;
+    bottom: -100%;
+    right: -4%;
+}
+
+.our-team:hover .pic:before {
+    top:0;
+}
+
+.our-team:hover .pic:after {
+    bottom: 0;
+}
+
+.our-team .pic img {
+    width: 100%;
+    height: auto;
+}
+
+.our-team .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 45%;
+    left:0;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.5s ease 0.3s;
+
+}
+
+.our-team:hover .social {
+    opacity: 1;
+}
+
+.our-team .social li {
+    display: inline-block;
+
+}
+
+.our-team .social li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 20px;
+    color:#fff;
+    margin-right: 10px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.our-team .social li a:after  {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #db162f;
+    border-radius: 0  20px 20px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s ease 0;
+}
+
+.our-team .social li a:hover:after {
+    transform: rotate(180deg);
+}
+
+.our-team .team-content {
+    padding: 20px;
+
+}
+
+.our-team .title {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #047168;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.our-team .post {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #707070;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 990px) {
+    .our-team {
+        margin-bottom: 30px ;
+    }
+}
